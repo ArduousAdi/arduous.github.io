@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;800&display=swap');
+
+*{ 
+Margin:0;
+Padding:0;
+Box-sizing: border-box;
+Font-family: xyz;}
+
+html,body{
+Width:100%;
+Height:100%;
+}
+nav{ 
+    height: 60px;
+}
+.logo{
+    width:150px;
+}
+header{
+    z-index: 9999;
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 1);
+    padding: 0.9rem 0;
+    top:0;
+    left:0;
+}
+header nav{
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+header ul a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 0 1rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 0.83rem;
+}
+main{
+    
+    min-height:100vh;
+    min-width: 175vh;
+  
+    position: relative;
+}
+
+body{
+    background: linear-gradient(red);
+}
+
+
+.prof{
+    position: absolute;
+    margin-top: 125px;
+    margin-left: 27vw;
+    font-family: 'Space Mono', monospace;
+    font-weight: 1300;
+    font-size: 2.83rem;
+    color: aliceblue;
+  padding: 0rem clamp(1rem, 2vw, 3rem);
+  border-radius: clamp(0.4rem, 0.75vw, 1rem);
+}
+
+.adi{position: absolute;
+    margin-top: 245px;
+    margin-left: 7vw;
+    
+}
+.pic{
+    height:130px;
+    aspect-ratio: 1;
+    border-radius: 100px;
+    background-color: aqua;
+    border-color: oldlace;
+}
+
+.adipic{
+    height:128px;
+    aspect-ratio: 1;
+    border-radius: 100px;
+
+}

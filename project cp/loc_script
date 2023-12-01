@@ -1,0 +1,2 @@
+Shery.imageEffect(".back",{style:6, gooey:true, debug:true});
+alert();

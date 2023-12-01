@@ -1,0 +1,118 @@
+ *{ 
+Margin:0;
+Padding:0;
+Box-sizing: border-box;
+Font-family: xyz;
+}
+
+html,body{
+Width:100%;
+Height:100%;
+}
+
+nav{ 
+    height: 60px;
+}
+.logo{
+    width:150px;
+}
+header{
+    z-index: 9999;
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid rgb(133, 0, 0);
+    padding: 0.9rem 0;
+    top:0;
+    left:0;
+}
+header nav{
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+header ul a{
+    text-decoration: none;
+    color: black;
+    padding: 0 1rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 0.83rem;
+}
+main{
+    max-height: 100vw;
+}
+img{
+    max-width: 100%;
+}
+.back{  
+    top:-200px;
+    width: 175vh;
+    z-index: 1;
+    position: relative;
+}
+.top{
+    top: 0%;
+    left: 0%;
+    position: absolute;
+    height:100vh;
+    width: 175vh;
+}
+.watermap{
+    position: absolute;
+    z-index: 2;
+    height: 100vh;
+    width: 175vh;
+}
+.map{
+    position: absolute;
+    top:4.5%;
+    left: 40%;
+    width: 950px;
+    z-index: 3;
+}
+    
+.loc_text{
+    margin: 15% 5%;
+    padding: 0 10%;
+    position: absolute;
+    height: 30vh;
+    width: 50%;
+    z-index: 4;
+    font-family: futura;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 60px;
+    font-stretch: expanded;
+    
+}
+.custom_button{
+    position: absolute;
+    z-index: 5;
+    top: 70%;
+    left: 16%;
+    font-family:kajiro;
+    font-size: 90px;
+    font-stretch: extra-expanded;
+    font-weight: 500;
+
+}
+.t1{
+    color: orange;
+}
+.t2{
+    color: purple;
+}
+.t3{
+    color: green;
+}
+.custom_button{
+    color: black;
+}
